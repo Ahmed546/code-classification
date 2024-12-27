@@ -1,0 +1,1085 @@
+Image Path,Functionality,Language,Author,Confidence
+D:\AI-Projects\code-classification\data\0xsha_CloudBrute_main_part1.png,"
+1. Create an argument parser that will be used to parse arguments.
+2. Create a function main that will call the main function.
+3. The code starts by parsing the arguments using the argparse library.
+4. Then, it creates a function that will parse the arguments and pass them to the main() method.
+5. Next step is to create a new instance of the parser and pass in the domain, keyword, wordList, useProvider, and threads options.
+6. Then we will use the argparse module.
+7. Next, we create a function for parsing arguments
+
+",go,Unknown,95.07%
+D:\AI-Projects\code-classification\data\acheong08_ChatGPTProxy_main_part1.png,"
+1. Create a package main.
+2. Create an empty cookie jar and pass it as an argument.
+3. Then create an empty options array.
+4. Next step is to create a cookie jar.
+5. Then, create an http client.
+6. The following imports are required.
+7. The code starts by setting the environment variables.
+8. The environment variables are:
+
+  http_proxy, strings, logs, and logs.
+",javascript,Unknown,52.78%
+D:\AI-Projects\code-classification\data\acheong08_ChatGPTProxy_main_part2.png,"
+1. Set the environment variable OpenAI_HOST.
+2. Get the OpenAI email and password from the environment.
+3. Create a new authenticator and set its PUID.
+4. Next step will print out the puid.
+5. If the user enters the PUID using the GetPUID() method.
+6. If there is an error, it will print the error and exit the program.
+7. Set a variable called “_puid"" in the cookie.
+
+",go,Unknown,99.96%
+D:\AI-Projects\code-classification\data\acheong08_ChatGPTProxy_main_part3.png," client .SetProxy(http_proxy)
+printtn(""Proxy set to http_proxy"")
+
+1. Get the port from the environment and set it to 9090.
+2. Set the PORT to the value of the variable.
+3. If the environment variable PORT is not set, it will print a warning message.
+4. Get and set the PUID from the request (json)
+var puid puid_struct
+var authorizations
+var authorization
+var err = c.BindJSON(&puid)
+
+",go,Unknown,99.83%
+D:\AI-Projects\code-classification\data\acheong08_ChatGPTProxy_main_part4.png,"Create a function proxy(c) {
+
+var handler = gin.Handler()
+
+// Check if the request url is in the request json
+//summarize: if err != nil {
+//  log.Println(""error"", ""JSON invalid"")
+// }
+
+
+1. Create a function that will decode the JSON request body and set the environment variables.
+2. If the request body is not empty, it will set the arkose_token to the value of the request.
+3. Next step is to check if the ""model"" is a gpt-4 model.
+4. If it is, we will call the GetOpenAIToken() function.
+5. If",go,Unknown,99.13%
+D:\AI-Projects\code-classification\data\acheong08_ChatGPTProxy_main_part5.png,"return
+}
+
+// Create a new request object
+request_body[""“arkose_token""] = token
+
+
+Create a new http.Client
+(https://0penAI_HOST/chat)
+
+Create an http client object that will be used to send the request to the server.
+1. Create an empty body.
+2. Create a request object with the request method ""POST"" and the body of the request.
+3. Set the header ""Content-Type"" to \""application/json"" and set the cookie.
+4. Next step will call the Do function.
+5. If the header is not set, it will set the value of the header to an empty string.",,Unknown,N/A
+D:\AI-Projects\code-classification\data\acheong08_ChatGPTProxy_main_part6.png,"+
+// Set the header
+for k, v in response.Headers {
+//+
+summarize: }
++
+
+// Get the status code from the response.
+c.Status (response. StatusCode)
+// +
+// Write the header to the client using the header function
+// c.Writer.Write(buf[:n]) // write the buffer to make sure the data is sent to client in time.
+//+
++
++
+}
+
+
+// Read the response body into the buffer
+for n<of{
+// If the buffer is smaller than 4096, then flush the buffer.
++}
+}
++
+}
+}
+while(true){
+
++",go,Unknown,99.99%
+D:\AI-Projects\code-classification\data\adammck_terraform-inventory_main_part1.png,"
+vfs.0S
+
+import (
+“bytes”
+""flag""
+""path""
+)
+
+var flag = new flag.Flag
+
+
+1. Parse the command line arguments.
+2. If no file is specified, print the version and exit.
+3. If file is empty, print version information and exit
+4. If --host or --list is not specified, we will use the versionInfo() function.
+5. If the flag is not set, we'll call the GetInputPath function on the vfs object.
+6. If not, then we will print the error.
+",go,Unknown,98.20%
+D:\AI-Projects\code-classification\data\AdminTest0_SharpWxDump_Program_part1.png,"
+1. Create a static class WeChatGetKey
+2. At first create a new instance of the Program and pass the arguments as an argument.
+3. At last create a private variable weChatProcess.
+4. In the try block we will read the WeChatProcess from the Process object.
+5. In finally
+
+Create a static variable WeChatWinBaseAddress and WeChatVersion.
+6. Next step is to read the version of WeChat.
+7. In try block will call the GetProcessName() method of the process and get the FileVersion from the process module.
+",java,Unknown,98.35%
+D:\AI-Projects\code-classification\data\AdminTest0_SharpWxDump_Program_part2.png,"return;
+}
+
+console.WriteLine(""[+] WeChat Base Address Get Faild"");
+
+break;
+
+case 2: // WeChat is run, but Maybe No Login
+
+if (supportList == null)
+{
+Console.ReadLine(""[-] Get the list of WeChatBase Address"");
+else {
+
+Int64 WeChatKey = (Int64)Program.GetKey(WeChatProcessHandle);
+string HexKey = Program.GetHex(WechatProcessHandle) ;
+string Account = “ + ",,Unknown,N/A
+D:\AI-Projects\code-classification\data\AdminTest0_SharpWxDump_Program_part3.png,"
+
+private static string GetName(IntPtr hProcess, IntPtr lpBaseAddress, int nSize = 100)
+
+{
+
+If weChatProcess is null then print out the name of the process and return """".
+
+else if weChatMail is null
+
+
+console.WriteLine(""[-] WeChat No Run"");
+
+return """";
+}
+
+// Read the byte array and size and check if the character is null.
+//
+
+Create a variable to store the value of the wechatMail.
+",java,Unknown,78.84%
+D:\AI-Projects\code-classification\data\AdminTest0_SharpWxDump_Program_part4.png,"return """";
+}
+string text =
+foreach (char c in Encoding.UTF8.GetString(array) )
+
+{
+if (c == '\0'){
+break;}
+text += c.ToString();}
+
+return text;
+/1¢
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//// {
+//// }
+// return
+//
+// }",java,Unknown,98.65%
+D:\AI-Projects\code-classification\data\AdminTest0_SharpWxDump_Program_part5.png,"
+
+1. Create a variable called summarize.
+2. Create an empty dictionary.
+3. Get the name of the process and its memory.
+4. If the process has not been opened, it will return """".
+5. Next step is to read the memory from the process.
+6. Create the variable called bytes2hex.
+7. Increase the number of bytes read from the byte array.
+8.
+
+
+Create a function GetHex(int hProcess, IntPtr lpBaseAddress, int nSize, int lpNumberOfBytesRead, int num)
+
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part1.png,"
+1. This file is published by Andrew Ayer, and will be included in any later version.
+2. It is also free software: you can redistribute it and/or modify the file under the GNU General Public License.
+3. Then it is distributed in the hope that it will be useful, but not in any way.
+4. If you use the Free Software Foundation, you should have received a copy of the GPL version 3 of the License, or else you can modify the program's OpenSSL library.
+5. In the following code, it will also include the parts covered by the program and pass it to the program.
+6. If the program is not covered by any permission, then it will include the part of the crypto library.",python,Unknown,87.41%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part10.png,"
+1. Create a function get_file_attributes (filename, std, check_attr_stdin, std::flush)
+2. Iterate through the line and find the name and value positions of the attribute.
+3. If the line contains "": "", then parse line backwards.
+4. Find the position of the variable and check if the attribute name is ""filter"" or ""diff"". If the attribute is not set, then continue to the next line.
+5. Then parse the line backwards and save the result in a variable called filter_attr and diff_attr.
+",javascript,Unknown,79.57%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part2.png,"
+1. Create a static std::string variable that will hold the name of the attribute.
+2. Create an empty vector to hold the git checkout command.
+3. Next step is to create a command that will execute the git command and return the version string.
+4. If key_name is not provided, it will use the default key name as is.
+5. Return the string of the git version.
+6. If the key name is not given, then return the default name.
+",ruby,Unknown,54.32%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part3.png,"Create a static const std::vector<int> version;
+var in = new std::stringstream("""");
+
+
+
+
+
+
+}
+
+static void git_version_string ()
+{
+
+std: :stringstream in;
+
+
+return version; }
+
+
+
+
+
+
+static bool
+static boolean git_has_config ()
+
+
+var
+
+
+
+while (std::getline(in, component, ‘.')) {",javascript,Unknown,90.77%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part4.png,"
+static void git_config (const std::string& name)
+{
+// configure the git-crypt filters
+// add the name to the command
+git_config(std::string name) ;
+// remove the name from the command;
+// if the name contains only shell-safe characters, it needs to be escaped.
+// else {
+// case 0: return true;
+case 1: return false;
+}
+
+} else { // case 1: throw Error(""'git config' failed.
+} }
+}",,Unknown,N/A
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part5.png,"
+1. Check if git_has_config(""filter"")
+2. If yes, run the command and return true.
+3. If no, return false.
+4. If the git_checkout_batch function will return true if the paths_begin == paths_end.
+",javascript,Unknown,55.94%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part6.png,"
+1. Create a static function get_internal_state_path (const std::string& key_name)
+2. Create an empty vector and push it back onto the command stack.
+3. Execute a git rev-parse --git-dir command and check if the key name is the same. If it is, it will throw an Error.
+4. Return the path of the internal state path.
+5. If the same_key_name is false.
+6. Then return the internal keys path.",javascript,Unknown,89.70%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part7.png,"
+
+:string get_internal_keys_path (const char* key_name)
+
+:summarize: static std::string path()
+
+{
+
+std:
+
+}
+
+
+// git config --get
+
+1. Add ""/"" to the end of the path.
+2. Execute the git config “--get” command and get the value of the key.
+3. If the key is not present, it will throw an error.
+4. Return the path of the repo state.
+",javascript,Unknown,79.74%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part8.png,"
+Create a function get_repo_keys_path (const std::string& repo_state_path)
+
+1. Check if the repo state dir has been explicitly configured. If so, use that.
+2. If not, use the default value of the repoStateDir.
+3. Get the path from the git config.
+4. If there is no explicitly configured repoState dir, then add the .git-crypt directory to the end of the path.
+5. Execute the git rev-parse command.
+6. Return the path as is.
+",javascript,Unknown,91.95%
+D:\AI-Projects\code-classification\data\AGWA_git-crypt_commands_part9.png,"
+Create a static function get_git_status (const std::string output)
+
+{
+// git status -uno --porcelain
+std: :vector<std::string> command;
+std::push_back(""status""); // don't show untracked files
+command.push_Back(""-uno"") ;
+command
+.pushBack( filename) ;
+
+return path_to_top;
+}
+
+
+// returns filter and diff attributes as a pair of strings
+
+static void get_file_attributes(const std: :ostream output);
+
+}",javascript,Unknown,58.88%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part1.png,"
+
+1. Create a function that will take an arbitrary number as an argument and return true if the message is valid.
+2. Then it will call the replace function of the string.
+3. Then, it will use the hasown function of Polyglot.js module.
+4. Next step is to check if the number is evenly divisible by 10.
+5. If it's not then it will warn the user.
+6. If the number isn't then it'll return false.
+7. Then we will return 0.",javascript,Unknown,84.46%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part10.png,"
+1. In order to use the ""summarize"" option, you can specify a default value for the phrase.
+2. If the onMissingKey option is set, it will use the key ‘_"".
+3. Then, if the key is not in the options object.
+4. In other words, the key must be a string.
+5. Then we will transform the phrase using the transformPhrase function.
+6. In case of missing key, we will warn the user about the missing translation.
+
+",javascript,Unknown,96.95%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part2.png,"
+1. Create a default plural rules object.
+2. Create an object that will hold the pluralization groups.
+3. The function will check if the number is between 3 and 4, and if it is, it will return 1.
+4. If the number isn't then it will just return 0.
+5. In other words will return 2.
+6",javascript,Unknown,98.59%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part3.png,"
+function entries(mapping) {
+
+// Create a mapping from pluralization group to individual language codes/locales
+// Will look up based on exact match, if it's not found will default to ‘en’.
+// If it's a locale, will parse the locale and return 2.
+var LangToPluralType = langToTypeMap(mapping.pluralTypeToLanguages) ;
+// For each entry in the mapping we will iterate through the mapping entries and add the type to the ret object.
+for (var i = 0; i < mappingEntries.length; i += 1) { 
+// Get the last two digits of the locale.
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part4.png,"
+Create a function constructTokenRegex(opts) {
+var prefix = (opts & opts.prefix) || ‘%{';
+var suffix = opts & options.suffix || '}';
+
+return new RegExp(prefix + token + suffix, 'g');
+
+}
+
+function pluralTypeName(pluralRules, locale);
+
+var pluralType = (pluralRules.pluralTypes[pluralType] || null;
+return pluralType;
+};
+
+// Create a function that will take locale as an argument and store it in the locale's plural type storage.
+
+",javascript,Unknown,99.63%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part5.png,"
+1. Create a function that will take the phrase as an argument and pass in the substitutions and the locale as the third argument.
+2. Then it will call the transformPhrase function of the Polyglot module.
+3. Then, it should pass in a number instead of an Object as ‘substitutions’.
+4. Next step is to select the correct plural form by using the defaultTokenRegex.
+5. Then we will use the replaceImplementation function to replace the plural forms.
+6. Then transform the phrase using the TransformPhrase function that takes the phrase and substitutes it into an object.
+",javascript,Unknown,92.24%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part6.png,"Create a function Polyglot(options) {
+
+// Create a tokenRegex object and extend it with the options.
+var tokenRegex = constructTokenRegex(options);
+var interpolate = defaultReplace(options.interpolation);
+
+var result = interpolateRegex.test(phrase) ? phrase : null;
+
+return result;
+}
+
+function defaultReplace (phrase, locale, substitutions) { // Create a function that takes options as an argument and returns the result as an object.
+1. Create a new RegExp object for each interpolation placeholder.
+2. Create an object that has a property named “options’.
+3. Return the result.
+",javascript,Unknown,99.86%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part7.png,"
+1. Create a function that will take a locale as an argument and return the current locale.
+2. If the locale is not given, it will use Polyglot's currentLocale.
+3. Then, we will use the locale() function.
+4. Then we will call the extend function on the polyglot.
+5. Then it will return the locale of the object.
+6. Then the code will call “extend’s method.
+",javascript,Unknown,89.41%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part8.png,"1. Create a function that will call the extend method of the Polyglot class and pass the phrases as an argument.
+2. Then we will use the entries function to create an array of phrase entries.
+3. Next step is to extend the polyglot instance with the phrases object and then unset the key.
+4. Then, we will iterate through the phrase entries and add them to the dictionary.
+5. Then the function will call ‘extend’s method.
+6. If the phrase is an object, it will set the key to the phrase.
+",javascript,Unknown,98.22%
+D:\AI-Projects\code-classification\data\airbnb_polyglot.js_index_part9.png,"
+
+// ### polyglot.clear()
+//
+// Clears the existing phrases.
+// The most-used method is called by ‘clear()’. This is done by calling the unset() method of the Polyglot instance.
+
+yi
+// Create a new object that will store the new phrases in this.phrases object.
+var prefix = options.prefix;
+
+var key = prefix ? prefix + key : key ;
+
+return typeof key === 'object' ? this.unset(phrase, prefixedKey) ;
+}
+
+
+",javascript,Unknown,98.48%
+D:\AI-Projects\code-classification\data\alexandres_lexvec_main_part3.png,"
+1. Set up the random number generator.
+2. Create a flag set and initialize it.
+3. Set the initialAlpha, subsample, and bucket size.
+4. Initialize the random generator and set the number of threads to 0.
+5. Create the flag set.
+6. Create an empty array.
+7. Init the variable to store the random numbers.
+8. Initialize a new random generator
+9. Set all the variables to zero.
+10.
+11. Set a flag that will be used to keep track of the state of the variable.
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\alexandres_lexvec_main_part5.png,"defer pprof.StopCPUProfile()
+} else {
+
+//summarize: pprof StartCPUProfile(f)
+//summarize : pprof StopCPUProfile
+}
+
+var ok bool
+
+logln(errorLogLevel, “invalid option for -matrix"")
+
+
+if command == ""vocabCommand""
+
+readVocab()
+saveVocab();
+
+case trainCommand:
+
+buildCoocMatrix()
+readCoocFile()
+
+calculateCdsTotalAndLogs()
+initModel()
+train(newTrainIteratorEM())
+saveVectors()
+break
+
+}",go,Unknown,99.15%
+D:\AI-Projects\code-classification\data\alexgand_springer_free_books_main_part1.png,"
+1. Create an argument parser and parse the command line.
+2. Create a path to the folder where the downloads are stored.
+3. If the language is ""en"" or ""de"", it will download the books and save in the folder.
+4. Then, it will create a folder with the name ""downloads"".
+5. Add the arguments to the argument parser.
+6. Create the path of the folder and add the argument ‘-1, -l, -c, --lang, -i, --category, --index, and --verbose flag.
+",python,Unknown,99.64%
+D:\AI-Projects\code-classification\data\alexgand_springer_free_books_main_part2 - Copy.png," if args.pdf and not args.epub:
+1. Read the Excel table from the URL and check if the file exists. If it does, it will print an error message and exit.
+2. If the file does not exist, will create a new empty table.
+3. Then, if the URL is not found, will try to read the excel table using the read_excel function and save the table in the download folder.
+4. Otherwise, will call the indices_of_categories function.
+5. Next step is to remove empty entries from the list of categories.
+6. If category is not None, will use the indices of categories
+7. If",python,Unknown,100.00%
+D:\AI-Projects\code-classification\data\alexgand_springer_free_books_main_part2.png," if args.pdf and not args.epub:
+1. Read the Excel table from the URL and check if the file exists. If it does, it will print an error message and exit.
+2. If the file does not exist, will create a new empty table.
+3. Then, if the URL is not found, will try to read the excel table using the read_excel function and save the table in the download folder.
+4. Otherwise, will call the indices_of_categories function.
+5. Next step is to remove empty entries from the list of categories.
+6. If category is not None, will use the indices of categories
+7. If",python,Unknown,100.00%
+D:\AI-Projects\code-classification\data\BeichenDream_BadPotato_Program_part1.png,"
+1. Create a class ExecuteRectangle that will call the ExecuteRectangle method.
+2. In this case, we use the System. Runtime.ConstrainedExecution and System.Security.Principal classes.
+3. Then we can use the private static methods of PingCastle.RPC.rprn.
+4. Next step is to summarize: using System.
+5. Then the following code creates a struct SECURITY_ATTRIBUTES
+{
+public int nLength;
+public string lpSecurityDescriptor
+}
+
+[StructLayout (LayoutKind = CharSet .Unicode) ]
+public struct STARTUPINFO
+{ 
+public Int32 cb;
+",java,Unknown,99.71%
+D:\AI-Projects\code-classification\data\BeichenDream_BadPotato_Program_part2.png,"
+Create a function Main
+1. Create a variable that will hold the name of the process and thread.
+2. Check if the argument is not empty. If it is, it will print out a message and return.
+3. If the arg is not, then print out the message.
+4. Create an empty string.
+5. If there is no argument then print the message and exit the program.
+6. If args.length==0, print out an empty line
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\BeichenDream_BadPotato_Program_part3.png,"start: thread.Start();
+summarize: start thread.Join(5000);
+if (thread.IsRunning()){
+console.WriteLine(""[*] Start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a new variable and initialize the variable.
+
+var pipeHandle = new IntPtr();
+pipeHandle.lpUserName = Environment.UserName;
+
+
+Start the thread and join the process.
+
+start the thread
+
+ Create a new",,Unknown,N/A
+D:\AI-Projects\code-classification\data\BeichenDream_GodPotato_Program_part2.png,"
+ if (args.Length == 0)
+{
+consoleWriter.WriteLine(helpMessage) ;
+return;
+}
+
+
+ else
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Start PipeServer
+1. Create a new GodPotatoContext and start it.
+2. Create an UnmarshalTrigger and call the Trigger method.
+3. Create the UnmarshalTrigger method and pass the context in as an argument.
+4. At the end of the try block.
+5. If",java,Unknown,91.55%
+D:\AI-Projects\code-classification\data\BeichenDream_GodPotato_Program_part3.png,"
+try
+
+{
+
+consoleWriter.WriteLine(""[*] Getting current security context token"");
+//
+//
+//
+
+
+
+
+
+
+i
+}
+
+:
+
+try
+{ //
+
+
+
+
+
+} //catch (Exception e)
+
+
+//
+//summarize: }
+
+
+
+
+
+
+}",java,Unknown,97.57%
+D:\AI-Projects\code-classification\data\beyondfengyu_SnowFlake_SnowFlake_part1.png,"
+1. Create a class SnowFlake that will take the datacenterId and machineld as an argument.
+2. Create an instance of the Snowflake class.
+3. The code starts by creating a new instance of this class and assigns its values to the variables.
+4. The variables are:
+   - datacenterId: 1480166465631L; //g000, //Q00000, //g00000,
+5. The machineId: 12; //Q0000000
+6. The number of seconds since January 1, 1970.
+7. Next step is to check if the machineId is less than 0.
+",java,Unknown,99.41%
+D:\AI-Projects\code-classification\data\beyondfengyu_SnowFlake_SnowFlake_part2.png,"Create a method nextId
+1. Create a method getNewstmp
+2. Set the datacenterId, machineId, and sequence.
+3. If the machineId is greater than MAX_MACHINE_NUM, it will throw an IllegalArgumentException.
+4. In case of summarizing the machine id will throw a RuntimeException.
+5. In the while loop will check if the machine ID is less than 0.
+6. In if statement will return the lastStmp.
+7/QO000000000000
+if (sequence == OL) {
+",java,Unknown,99.90%
+D:\AI-Projects\code-classification\data\beyondfengyu_SnowFlake_SnowFlake_part3.png,"
+1. Create a new instance of SnowFlake and pass in the 2,3 parameters as an argument.
+2. The 3rd parameter is a number.
+3. The 4th parameter is the number of seconds since January 1, 1970.
+
+Create a private static variable called getNewstmp() that will be used to generate a new random number generator.
+",java,Unknown,100.00%
+D:\AI-Projects\code-classification\data\bootandy_dust_main_part5.png,"
+
+Create a function summarize
+1. Set up the variable that will hold the value of the variable.
+2. Next step is to read the file.
+3. Then, if the depth of the file is less than MAX, it will use the MAX value.
+4. Then we will call the read_to_string() function.
+5. If depth is not MAX, then we'll use the match function of the config.
+6. Then if depth is MAX, we'll call the chain of the function to get the height of the terminal.
+",javascript,Unknown,98.65%
+D:\AI-Projects\code-classification\data\bootandy_dust_main_part6.png,"
+ Let target_dirs = get_target_dirs(Soptions) ;
+
+
+
+
+
+
+
+Create a new walk data object.
+
+Let Swalk_data = WalkData {
+
+1. Init the PIndicator.
+2. Create a new object that will hold the walk data.
+3. Set the ignore_directories and ignore_full_path,
+invert_filter_regexs,
+ignore_hidden,
+use_apparent_size,
+errors_for_rayon,
+yi
+
+",javascript,Unknown,95.43%
+D:\AI-Projects\code-classification\data\bootandy_dust_main_part7.png,"
+1. Get all file types.
+2. Iterate through the top-level nodes and check if there are any errors.
+3. If there are no errors print an error message and return.
+4. Otherwise print out a message and exit.
+5. Check if the directory is not found.
+6. If it is then print out the message.
+7. If the directory does not exist, then print a warning.
+",javascript,Unknown,96.93%
+D:\AI-Projects\code-classification\data\BurntSushi_xsv_main_part6.png,"
+impl From<‘a> From<&'a str> for CliError {
+fn from(err: &'a str) -> CliError
+
+if !err.is_io_error() {
+return CliError::Csv(err),_ => unreachable!(),
+}
+
+} else {
+
+
+ if err.into_kind() { 
+return csv::ErrorKind::Io(err) => From::From(err).to_owned()
+}",javascript,Unknown,65.06%
+D:\AI-Projects\code-classification\data\cgag_loc_main_part8.png,"
+1. Create a HashMap<&Lang, LangTotal> to store the summary by language.
+2. Iterate through the lang_totals and count the files.
+3. For each lang, iterate through the filecounts and print out the totals by language
+4. Then, if s.len() > n then print the total of the file.
+5.
+
+for (lang, filecounts) iterate over the s.
+for lang in lang_total
+for filecounts
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\cgag_loc_main_part9.png,"
+
+Create a function totals_by_lang {
+
+1. Create a variable to store the totals.
+2. Iterate through the totals by language and count.
+3. For each language, we will add the files, lines, comment, and code to the totals object.
+4. Then we will print out the total.
+5. Then for each language we will use the printtn! (""Total"", ""Files"", ""Lines"", ""Blank"", ""Comment"", ""Code"");
+6. Next step is to summarize the files and lines.
+7. In the for loop, we'll add the total to the variable.
+",javascript,Unknown,89.02%
+D:\AI-Projects\code-classification\data\chmln_sd_main_part1.png,"
+ cli: mod cli;
+
+summarize: mod error;
+mod input;
+use memmap2: :MmapMut;
+var Replacer: :New(replacer);
+
+
+Create a function main() {
+
+1. Parse the CLI options and run it.
+2. Create a new instance.
+3. If the error is encountered, it will print the error message and exit the program.
+4. If it is, we will call the try_main() function.
+5. If there is no error, then we will exit the main() function and exit.
+",javascript,Unknown,99.12%
+D:\AI-Projects\code-classification\data\chmln_sd_main_part2.png,"
+
+1. Create a variable for the mmaps.
+2. Next step is to create a function that will take the source as an argument and return the path to the user-mapped section open.
+3. Check if the file exists. If it does, it will create a new Vec<u8>.
+4. If the file does not exist, it creates a new one.
+5. Create an empty Vec<Vec<_> and save it in the variable for later use.
+
+",javascript,Unknown,95.19%
+D:\AI-Projects\code-classification\data\chmln_sd_main_part3.png,"
+var failed_jobs = [];
+
+1. Iterate over the sources and replace them in order.
+2. Create a function write_with_temp(path: &PathBuf, data: &[u8])
+3. For each source, iterate over the replaced array and write the data into the temp file.
+4. If data is not empty, it creates a new named temp file with the same permissions as the path.
+5. If metadata is present, it writes the data to the file using the metadata.permissions property of the file.",javascript,Unknown,98.33%
+D:\AI-Projects\code-classification\data\cjbassi_ytop_main_part6.png,"summarize: },
+
+KeyCode: :Char(‘d') => {
+
+if previous_key_event == Some(KeyEvent: :from(KeyCode::Char('d'))) {
+draw(&mut terminal, Smut app);
+skip_key = true;
+
+}
+
+},
+
+Enter: {
+if show_help_menu {
+show help menu.
+} else {
+// draw the help menu
+
+// }
+
+}}
+
+
+var KeyCode: KeyCode::Enter: :Enter
+
+",javascript,Unknown,83.89%
+D:\AI-Projects\code-classification\data\codemayq_chinese-chatbot-corpus_main_part1 - Copy.png,"
+1. Create a function process_all_corpus to do so
+2. Check if the directory exists and if it does, it creates it else create it.
+3. If the directory does not exist, it will create it
+4. If it will call the function douban_process_pipeline()
+5. If weibo_start()
+6. Else:
+
+- Weibo start the process pipeline
+7. Create the function process pipeline.
+8. Then run the pipeline
+9. Next step is to call the process all the corpus.
+",python,Unknown,99.68%
+D:\AI-Projects\code-classification\data\codemayq_chinese-chatbot-corpus_main_part1.png,"
+1. Create a function process_all_corpus to do so
+2. Check if the directory exists and if it does, it creates it else create it.
+3. If the directory does not exist, it will create it
+4. If it will call the function douban_process_pipeline()
+5. If weibo_start()
+6. Else:
+
+- Weibo start the process pipeline
+7. Create the function process pipeline.
+8. Then run the pipeline
+9. Next step is to call the process all the corpus.
+",python,Unknown,99.68%
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part3 - Copy.png,"
+Create a function build_scheduler that will initialize the model and optimizer.
+
+1. Initialize the model, optimizer, and save the number of parameters.
+2. Check if the model is already initialized. If it is, it will return None.
+3. If the model has already been initialized.
+4. Next step is to load the weights from the data_loader_val module.
+5. Create a variable called model_without_ddp.
+6. If model has been initialized, it is initialized with SoftTargetCrossEntropy() and if it is then it will call the validate function.
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part3.png,"
+Create a function build_scheduler that will initialize the model and optimizer.
+
+1. Initialize the model, optimizer, and save the number of parameters.
+2. Check if the model is already initialized. If it is, it will return None.
+3. If the model has already been initialized.
+4. Next step is to load the weights from the data_loader_val module.
+5. Create a variable called model_without_ddp.
+6. If model has been initialized, it is initialized with SoftTargetCrossEntropy() and if it is then it will call the validate function.
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part4 - Copy.png,"
+Create a function init_train_one_epoch
+1. Create a function set_epoch(config, epoch, model, criterion, optimizer, lr_scheduler, logger)
+2. Check if the model is already trained. If it is, it will save the model.
+3. Next step is to load the model and save the latest accuracy.
+4. If the model has been trained on the network.
+5. Then it will call the save_latest function of the network at epoch ‘sampler’s checkpoint.
+6. If epoch % config.START_EPOCH == 0:
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part4.png,"
+Create a function init_train_one_epoch
+1. Create a function set_epoch(config, epoch, model, criterion, optimizer, lr_scheduler, logger)
+2. Check if the model is already trained. If it is, it will save the model.
+3. Next step is to load the model and save the latest accuracy.
+4. If the model has been trained on the network.
+5. Then it will call the save_latest function of the network at epoch ‘sampler’s checkpoint.
+6. If epoch % config.START_EPOCH == 0:
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part5 - Copy.png,"1. Save the latest EMA to the path.
+2. If we are not in the summary mode, we will save the model in the current directory.
+3. Then we will call the train_one_epoch function.
+4. Next step is to train the model.
+5. Iterate through the data_loader and check if there are any auxiliary variables in the dict and if they are not, it will use the average loss.
+6. If there are no auxiliary variable in the dictionary.
+7. If they are, we use average loss and clip the loss by adding 0.1.
+",python,Unknown,99.98%
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part5.png,"1. Save the latest EMA to the path.
+2. If we are not in the summary mode, we will save the model in the current directory.
+3. Then we will call the train_one_epoch function.
+4. Next step is to train the model.
+5. Iterate through the data_loader and check if there are any auxiliary variables in the dict and if they are not, it will use the average loss.
+6. If there are no auxiliary variable in the dictionary.
+7. If they are, we use average loss and clip the loss by adding 0.1.
+",python,Unknown,99.98%
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part9 - Copy.png,"
+Create a function parse_option and pass the args and config as an argument.
+1. Parse the command line arguments and get the configuration.
+2. Check if the user has installed the amp module and if it is, it will use the utility function create_logger.
+3. If the amp is not installed, then it will create a new directory and set the environment variable.
+4. Create a new process group.
+5. Set the output directory.
+6. Create the logger.
+
+Create the variable ‘Output’
+
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\DingXiaoH_RepVGG_main_part9.png,"
+Create a function parse_option and pass the args and config as an argument.
+1. Parse the command line arguments and get the configuration.
+2. Check if the user has installed the amp module and if it is, it will use the utility function create_logger.
+3. If the amp is not installed, then it will create a new directory and set the environment variable.
+4. Create a new process group.
+5. Set the output directory.
+6. Create the logger.
+
+Create the variable ‘Output’
+
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part2 - Copy.png,"“summarize"": ""summarize""
+”
+Create a function text_chunker that will take text as an argument and return an AsyncIterable of chunks.
+
+1. Check if the library is available. If it is, it will return True.
+2. Create a variable called buffer.
+3. If the buffer is empty, then it will be empty.
+4. Iterate through the text and yield the character from the text.
+5. Next step will check if the buffer ends with splitters.
+",python,Unknown,99.97%
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part2.png,"“summarize"": ""summarize""
+”
+Create a function text_chunker that will take text as an argument and return an AsyncIterable of chunks.
+
+1. Check if the library is available. If it is, it will return True.
+2. Create a variable called buffer.
+3. If the buffer is empty, then it will be empty.
+4. Iterate through the text and yield the character from the text.
+5. Next step will check if the buffer ends with splitters.
+",python,Unknown,99.97%
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part3 - Copy.png,"
+Create a function text_to_speech that will send audio chunks to the server.
+
+1. Set up the process for audio streaming.
+2. Create an instance of the mpv process.
+3. If the key is not found, it will create a new one.
+4. Create a new subprocess and pass the key as an argument.
+5. Open the process object and send the message using the send method.
+6. Close the process and wait for the process to complete.
+7. Then print the message and close the connection.
+",python,Unknown,99.58%
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part3.png,"
+Create a function text_to_speech that will send audio chunks to the server.
+
+1. Set up the process for audio streaming.
+2. Create an instance of the mpv process.
+3. If the key is not found, it will create a new one.
+4. Create a new subprocess and pass the key as an argument.
+5. Open the process object and send the message using the send method.
+6. Close the process and wait for the process to complete.
+7. Then print the message and close the connection.
+",python,Unknown,99.58%
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part4 - Copy.png,"
+Create a function initialize_speech_recognition
+1. Create a function that will try to send the text in chunks and send the closing message.
+2. Create an async for loop that will loop through the text_chunker function and initialize the speech recognition task.
+3. In the try block we will send the empty string as an empty chunk.
+4. Start a new task that will start streaming the text.
+5. Then we will call the try_trigger_generation function and wait for the streaming to complete.
+6. If the connection is closed we will print an empty string.
+",python,Unknown,99.95%
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part4.png,"
+Create a function initialize_speech_recognition
+1. Create a function that will try to send the text in chunks and send the closing message.
+2. Create an async for loop that will loop through the text_chunker function and initialize the speech recognition task.
+3. In the try block we will send the empty string as an empty chunk.
+4. Start a new task that will start streaming the text.
+5. Then we will call the try_trigger_generation function and wait for the streaming to complete.
+6. If the connection is closed we will print an empty string.
+",python,Unknown,99.95%
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part5 - Copy.png,"1. Create a function _input (max_retries=3) that will call the
+2. Initialize the speech recognition objects before each attempt.
+3. In the try block we will try to reinitialize the objects.
+4. Then, we will wait for 5 seconds before trying to recognize the audio.
+5. Then call the recognize_google function.
+6. Then try to call the cleanup_speech_recognition() method.
+7. Then we will print the message and return None.
+
+",python,Unknown,99.87%
+D:\AI-Projects\code-classification\data\Doriandarko_claude-engineer_main_part5.png,"1. Create a function _input (max_retries=3) that will call the
+2. Initialize the speech recognition objects before each attempt.
+3. In the try block we will try to reinitialize the objects.
+4. Then, we will wait for 5 seconds before trying to recognize the audio.
+5. Then call the recognize_google function.
+6. Then try to call the cleanup_speech_recognition() method.
+7. Then we will print the message and return None.
+
+",python,Unknown,99.87%
+D:\AI-Projects\code-classification\data\escline_InstallCert_InstallCert_part1.png,"
+1. Create a copyright notice.
+
+2. At first, we are using the copyright notice of the Sun Microsystems, Inc. All Rights Reserved.
+3. Then, we will use the following code to generate a certificate.
+4. At last, we're using the Redistribution and use in the binary form.
+5. The following code will check if the above copyright notice is met.
+6. If the above code is met, it will return an empty list.
+7. The above code will also check if any of the above conditions are met. If they are met, then we will call the following function and return a list of dictionaries.
+",,Unknown,N/A
+D:\AI-Projects\code-classification\data\escline_InstallCert_InstallCert_part2.png,"Create a static class InstallCert and pass the args as an argument.
+
+1. At first, we will parse the host and port from the command line.
+2. Then we will use the --proxy option.
+3. Next step will check if the user is using the --quiet flag. If it is set to true, it will print out the message digest and the port.
+4. If the user passes in the passphrase.
+5. At last, we'll set the variable to 443.
+6. At the next step will try to parse the port and use the proxy.
+",java,Unknown,99.99%
+D:\AI-Projects\code-classification\data\escline_InstallCert_InstallCert_part3.png,"System.out.println(""Usage: java InstallCert [--proxy=proxyHost:proxyPort] host[:port] [passphrase] [--quiet]"");
+return;
+}
+
+// default values
+if (passphrase == null) {
+passphrase = “changeit"".toCharArray();
+} else {
+
+useProxy = true; // use the proxy
+
+
+Create a new SSLContext and load the keystore using the TrustManagerFactory and set the default trust manager
+
+try {
+Create an SSL context
+
+To use the Proxy, create a new Socket object and close the input stream
+",java,Unknown,99.77%
+D:\AI-Projects\code-classification\data\escline_InstallCert_InstallCert_part4.png,"System.out.println(""Starting SSL handshake..."");
+
+Init the SSL context with no trust manager.
+
+1. Create a new TrustManager and use it to connect to the server.
+2. Create an X509Certificate chain.
+3. Check if the server certificate is already trusted.
+4. If the certificate is not, it will throw an SSLException.
+5. Update the digest of the certificate using the digest method of the underlying object.
+6. Then print out the certificate(s) using the MessageDigest.
+7. For each certificate in the chain, we will call the connect function of the SSL socket.
+",java,Unknown,99.99%
+D:\AI-Projects\code-classification\data\escline_InstallCert_InstallCert_part5.png,"System.out.println(""Adding first certificate to trusted keystore"");
+//
+} else {
+//summarize: }
+
+// if (isQuiet) { print out the message and exit the program.
+// } else { print a message and return the certificate to the keystore.
+
+
+/*
+
+1. Read the certificate from the user.
+2. Print out the certificate using the hexadecimal representation of the alias using the reader.
+3. In the try block to parse the number from the console.
+4. Print the certificate in the form of a hex digit.",java,Unknown,99.99%
+D:\AI-Projects\code-classification\data\escline_InstallCert_InstallCert_part6.png,"
+1. Create a private class SavingTrustManager that will hold the X509TrustManager and its chain.
+2. Create an empty array.
+3. In the constructor, we will return an empty list.
+4. In this case we will call the getAcceptedIssuers() method of the class.
+5. Return the empty array if there are no acceptable issuers.
+6. In other case, the call to this method will return null.
+
+",java,Unknown,99.99%
+D:\AI-Projects\code-classification\data\gaopu_Java_DownloadImg_part1.png,"Create a class DownloadImg and pass the entity as an argument.
+1. Create a class that will write the image entity to a file.
+2. Create an instance of the FileOutputStream and write the data to it.
+3. If the entity is not null, it will use the getContent() method of the entity.
+4. In the try block to read the content of the input stream.
+5. Close the output stream if it exists.
+6. Write the data into the storeFile.
+
+",java,Unknown,99.99%
